@@ -88,7 +88,9 @@ namespace silly_little_whiteboard
 
         private void Form1_SizeChanged(object sender, EventArgs e)
         {
-            canvas.Size = new Size(this.Size.Width - 19, this.Size.Height - 74);
+            g = canvas.CreateGraphics();
+            g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
+            //canvas.Size = new Size(this.Size.Width - 19, this.Size.Height - 74);
         }
 
         private void eraserSize_TextChanged(object sender, EventArgs e)

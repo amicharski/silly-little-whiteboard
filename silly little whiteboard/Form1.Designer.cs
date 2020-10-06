@@ -77,7 +77,7 @@
             this.eraser.Image = ((System.Drawing.Image)(resources.GetObject("eraser.Image")));
             this.eraser.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.eraser.Name = "eraser";
-            this.eraser.Size = new System.Drawing.Size(29, 28);
+            this.eraser.Size = new System.Drawing.Size(29, 24);
             this.eraser.Text = "toolStripButton2";
             this.eraser.Click += new System.EventHandler(this.eraser_Click);
             // 
@@ -87,7 +87,7 @@
             this.black.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.black.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.black.Name = "black";
-            this.black.Size = new System.Drawing.Size(29, 28);
+            this.black.Size = new System.Drawing.Size(29, 24);
             this.black.Text = "toolStripButton1";
             this.black.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
@@ -97,7 +97,7 @@
             this.red.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.red.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.red.Name = "red";
-            this.red.Size = new System.Drawing.Size(29, 28);
+            this.red.Size = new System.Drawing.Size(29, 24);
             this.red.Text = "toolStripButton2";
             this.red.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
@@ -107,7 +107,7 @@
             this.yellow.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.yellow.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.yellow.Name = "yellow";
-            this.yellow.Size = new System.Drawing.Size(29, 28);
+            this.yellow.Size = new System.Drawing.Size(29, 24);
             this.yellow.Text = "toolStripButton3";
             this.yellow.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
@@ -117,7 +117,7 @@
             this.green.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.green.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.green.Name = "green";
-            this.green.Size = new System.Drawing.Size(29, 28);
+            this.green.Size = new System.Drawing.Size(29, 24);
             this.green.Text = "toolStripButton4";
             this.green.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
@@ -127,7 +127,7 @@
             this.blue.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.blue.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.blue.Name = "blue";
-            this.blue.Size = new System.Drawing.Size(29, 28);
+            this.blue.Size = new System.Drawing.Size(29, 24);
             this.blue.Text = "toolStripButton5";
             this.blue.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
@@ -185,7 +185,6 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.penSize);
